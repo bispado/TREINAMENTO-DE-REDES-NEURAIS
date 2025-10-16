@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Paper', 'Rock', 'Scissors']
+
+roboflow:
+  workspace: bispado
+  project: rock-paper-scissors-sxsw-zbvgm
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/bispado/rock-paper-scissors-sxsw-zbvgm/dataset/1

@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Models (arquivos grandes)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.pb
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# Dataset (muito grande para git - disponível no Google Drive)
+# Link: https://drive.google.com/drive/folders/1Lyaf5Ns15ABItUMfwP8jumKftJxOSmjL
+train/
+valid/
+test/
+
+# Mas mantém o data.yaml no repositório
+!data.yaml
+
+# Arquivos temporários do dataset
+*.cache
+*.cache.npy
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Resultados temporários
+results/runs/
+runs/
+*.log
+
+# Cache do MediaPipe
+.mediapipe/
+
